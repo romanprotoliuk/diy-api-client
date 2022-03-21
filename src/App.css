@@ -7,6 +7,35 @@
   pointer-events: none;
 }
 
+.form {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.landing-top-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.blog-wrapper {
+  margin-bottom: 40px;
+  background-color: beige;
+  width: 500px;
+  margin: 0 auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
